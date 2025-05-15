@@ -1,0 +1,94 @@
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Hammer Time!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap">
+</head>
+<header>
+  <h1>Hammer Time!</h1>
+  <img src="https://i.postimg.cc/25pNNTGy/Logo-PNG.png" alt="logo" class="logo">
+</header>
+<body>
+  <div>
+    <label for="playerOneName">Player One Name:</label>
+    <input type="text" id="playerOneName" placeholder="Enter Player One's name">
+    <label for="playerTwoName">Player Two Name:</label>
+    <input type="text" id="playerTwoName" placeholder="Enter Player Two's name">
+    <button id="startButton">Start Game</button>
+  </div>
+  
+  <audio src="AlienSong.mp3"></audio>
+  <img src="https://i.postimg.cc/V66rQYDz/background.png" alt="Mole" class="illustration">
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("startButton").addEventListener("click", function() {
+        var playerOneName = document.getElementById("playerOneName").value;
+        var playerTwoName = document.getElementById("playerTwoName").value;
+        
+        // Open the game page with the collected names as parameters
+        var gamePageUrl = "file:///C:/Users/ayala/OneDrive/%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%94%D7%A2%D7%91%D7%95%D7%93%D7%94/Desigh/Pages/%D7%A0%D7%99%D7%A7%D7%95%D7%93%202(%D7%A1%D7%95%D7%A4%D7%99).html" + "?playerOne=" + encodeURIComponent(playerOneName) + "&playerTwo=" + encodeURIComponent(playerTwoName);
+        window.open(gamePageUrl);
+      });
+    });
+  </script>
+</body>
+<footer>
+  2023 © Made by Ayala, Wiaam, and Elon.
+</footer>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+  <title>Hammer Time!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Font+Name&display=swap">
+</head>
+<header>
+  <h1>Hammer Time!</h1>
+  <img src="https://i.postimg.cc/25pNNTGy/Logo-PNG.png" alt="logo" class="logo">
+</header>
+<body>
+  <div id="players1">
+    <label for="playerOneName" class="p">Player One Name:</label>
+    <br>
+    <input type="text" id="playerOneName" placeholder="Enter Player One's name" class="p" >
+    <br>
+  </div>
+  <div id="players2">
+    <label for="playerTwoName" class="p">Player Two Name:</label>
+    <br>
+    <input type="text" id="playerTwoName" placeholder="Enter Player Two's name" class="p">
+    <br>
+  </div>
+  <button id="startButton" class="p">Start Game</button>
+  
+  <audio src="AlienSong.mp3"></audio>
+  <div class="img-main">
+    <img src="background.png" alt="Mole" class="illustration">
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("startButton").addEventListener("click", function() {
+        var playerOneName = document.getElementById("playerOneName").value;
+        var playerTwoName = document.getElementById("playerTwoName").value;
+
+        if (playerOneName && playerTwoName) { // בדיקה אם השדות אינם ריקים
+          // Open the game page with the collected names as parameters
+          var gamePageUrl = "file:///C:/Users/weama/OneDrive/%D7%A9%D7%95%D7%9C%D7%97%D7%9F%20%D7%94%D7%A2%D7%91%D7%95%D7%93%D7%94/12222222/e2eee.html" + "?playerOne=" + encodeURIComponent(playerOneName) + "&playerTwo=" + encodeURIComponent(playerTwoName);
+          window.open(gamePageUrl);
+        } else {
+          alert("Please enter the names of both players."); // הודעה אם השדות ריקים
+        }
+      });
+    });
+  </script>
+</body>
+<footer>
+  2023 ©️ Made by Ayala, Wiaam and Elon.
+</footer>
+</html> -->
